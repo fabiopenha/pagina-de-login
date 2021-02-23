@@ -1,0 +1,1 @@
+Criei esse projeto porque gostei do design e resolvi fazer um igual. Utilizei HTML e CSS apenas, mas o prjeto original utiliza javascript para fazer troca dos box. Sinta-se livre para dar a sua contribuição.

@@ -1,0 +1,226 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html, body{
+    width: 100%;
+    height: 100%;
+    font-family: "Roboto-Regular";
+    background-color: #f0efef;
+}
+
+.container {
+    margin: auto;
+    margin-top: 80px;
+    width: 960px;
+    height: 500px;
+    border-radius: 20px;
+}
+
+.container .box {
+    width: 40%;
+    height: 100%;
+    float: left;
+    background-color: #2d9445;
+    border-radius: 20px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+
+.container .box .box-content {
+    width: 100%;
+    margin: auto;
+    margin-top: 192px;
+}
+
+.container .box .box-content h2 {
+   text-align: center;
+   font-size: 30px;
+   color: #ffffff;
+} 
+
+.container .box .box-content p {
+    text-align: center;
+    font-family: "Roboto-Light";
+    font-size: 13px;
+    color: #ffffff;
+    margin-top: 10px;
+    margin-bottom: 10px;
+ }
+
+ .container .box .box-content form {
+     margin-top: 5px;
+     text-align: center;
+ }
+
+ .container .box .box-content form button{
+   padding: 10px 25px;
+   border-radius: 36px;
+   border: 1px solid #ffffff;
+   outline: none;
+   font-weight: bold;
+   color: #ffffff;
+   background-color: transparent;
+   font-family: "Roboto-Light";
+   transition: .5s;
+   cursor: pointer;
+}
+
+.container .box .box-content form button:hover{
+    padding: 10px 25px;
+    border-radius: 36px;
+    color: #2d9445;
+    background-color: #ffffff;
+    font-weight: bold;
+    outline: none;
+ }
+
+
+.container .bigbox {
+    width: 60%;
+    height: 100%;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px ;
+    float: right;
+    background-color: #ffffff;
+
+}
+
+.container .bigbox .bigbox-content {
+    width: 100%;
+    margin-top: 80px;
+}
+
+.container .bigbox .bigbox-content h2 {
+    text-align: center;
+    font-size: 30px;
+    color: #2d9445;
+    padding-bottom: 25px;
+}
+
+.container .bigbox .bigbox-content h2 {
+    text-align: center;
+}
+
+.container .bigbox .bigbox-content ul {
+    text-align: center;
+    list-style: none;
+    height: 100%;
+}
+
+.container .bigbox .bigbox-content ul .item-social-midia{
+    padding-left: 11px;
+    padding-right: 10px;
+    padding-bottom: 8px;
+    padding-top: 8px;
+    text-align: center;
+}
+
+.container .bigbox .bigbox-content ul li {
+    margin: auto;
+    display: inline;
+    padding-left: 9px;
+    padding-right: 10px;
+    padding-bottom: 8px;
+    padding-top: 8px;
+    border-radius: 35px;
+    border: 1px solid #bdc3c7;
+    background-color: #ffffff;
+    color: #95a5a6;
+    transition: 0.5s;
+}
+
+.container .bigbox .bigbox-content ul li:hover {
+    background-color: #2d9445;
+    color: #fff;
+    border-color: #2d9445;
+}
+
+.container .bigbox .bigbox-content ul li:link {
+    background-color: #58af9b;
+    color: #fff;
+    border-color: #58af9b;
+}
+
+.container .bigbox .bigbox-content > p {
+    text-align: center;
+    margin-top: 25px;
+    margin-bottom: 15px;
+    font-size: 14px;
+}
+
+.container .bigbox .bigbox-content .form{
+    text-align: center;
+}
+
+.container .bigbox .bigbox-content .form input{
+    background-color: #ecf0f1;
+    padding: 10px 15px;
+    border: none;
+    outline: none;
+}
+
+.container .bigbox .bigbox-content .form .label{
+    background-color: #ecf0f1;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.container .bigbox .bigbox-content .form p {
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 25px;
+    font-size: 14px;
+}
+
+.container .bigbox .bigbox-content .form a {
+    text-decoration: none;
+    color: #000000;
+}
+
+.container .bigbox .bigbox-content .form a:active {
+    color:#2d9445 ;
+}
+
+
+.container .bigbox .bigbox-content .form button{
+    padding: 10px 25px;
+    border: none;
+    border-radius: 36px;
+    border: 1px solid #2d9445;
+    font-weight: bold;
+    color: #2d9445;
+    background-color: transparent;
+    font-family: "Roboto-Light";
+    outline: none;
+    transition: .5s;
+    cursor: pointer;
+ }
+
+ .container .bigbox .bigbox-content .form button:active{
+   border: none;
+   outline: none;
+ }
+ 
+ .container .bigbox .bigbox-content .form button:hover{
+    padding: 10px 25px;
+    border-radius: 36px;
+    border: none;
+    color: #ffffff;
+    background-color: #2d9445;
+    font-weight: bold;
+    font-weight: bold;
+    border: none;
+    outline: none;
+ }
+
+
+
+
+
+
+
+
+
